@@ -1,0 +1,333 @@
+/*
+* @Author: Marte
+* @Date:   2017-10-10 13:38:50
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-12 00:12:39
+*/
+img {
+    /* display: block; */
+    vertical-align: top;
+}
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+.fl {
+    float: left !important;
+}
+.fr {
+    float: right !important;
+}
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
+a:hover {
+    color: #c81623;
+}
+input,button {
+    border: 0;
+    outline: 0;
+}
+ul {
+    list-style: none;
+}
+ul,h1,input,dd {
+
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;/* 触发bfc */
+}
+.clearfix:after {
+    clear:both;
+}
+body {
+    background-color: #f6f6f6;
+}
+.jdc {
+    color: #f10215 !important;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?z4kunm');
+  src:  url('../fonts/icomoon.eot?z4kunm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?z4kunm') format('truetype'),
+    url('../fonts/icomoon.woff?z4kunm') format('woff'),
+    url('../fonts/icomoon.svg?z4kunm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+    height: 80px;
+    height: 100%;
+    background-color: #1a93da;
+    min-width: 1240px;
+}
+header img {
+    margin: 0 auto;
+    display: block;
+}
+/* 快速导航 */
+.shortcut {
+    background-color: #e3e4e5;
+    height: 30px;
+    min-width: 1240px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+}
+.city {
+    margin-left: 200px;
+}
+.shortcut li {
+    float: left;
+}
+.shortcut i {
+    font-family: "icomoon";
+    font-weight: normal;
+    font-style: normal;
+    color: #ccc;
+}
+.space {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px;
+}
+.mobile {
+    position: relative;
+}
+.mobile img {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    border: 1px solid #ccc;
+    padding: 1px;
+    z-index: 1;
+}
+/* 快速导航栏over */
+/* 中间大部分 */
+.middle {
+    height: 140px;
+    position: relative;
+
+}
+.logo {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    box-shadow: 0 -10px 10px rgba(0,0,0,.3);
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 170px;
+    background: #fff url(../images/logo.png) no-repeat;
+}
+/* 搜索框*/
+.form {
+    width: 400px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    left: 320px;
+    box-sizing: border-box;
+}
+.form input {
+    width: 350px;
+    height: 35px;
+    border: 1px solid #c81623;
+    float: left;
+    font-size: 14px;
+    padding-left: 5px;
+    box-sizing: border-box;
+
+}
+.form button {
+    width: 50px;
+    height: 35px;
+    background-color: #c81623;
+    float: left;
+}
+.form i {
+    font-family: "icomoon";
+    font-style: normal;
+    font-weight: normal;
+    color: #f6f6f6;
+}
+.shopCar {
+    width: 188px;
+    height: 33px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 25px;
+    right: 95px;
+    line-height: 33px;
+    text-align: center;
+}
+.shopCar span {
+    width: 15px;
+    height: 15px;
+    background-color: #f10215;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    line-height: 15px;
+    color: #f6f6f6;
+}
+.hotwords {
+    position: absolute;
+    top: 68px;
+    left: 320px;
+}
+.navitems {
+    width: 770px;
+    height: 40px;
+    /* background-color: skyblue; */
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+.navitems li {
+    float: left;
+
+    margin-left: 30px;
+    line-height: 40px;
+    color: #555;
+}
+.navitems a {
+    font-size: 16px;
+    font-weight: 700;
+}
+.navitems .space {
+    margin: 15px -15px 0 15px;
+
+}
+.superday {
+    height: 38px;
+    width: 192px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+footer {
+    margin-top: 35px;
+    height: 500px;
+    min-width: 1240px;
+    width: auto;
+    background-color: #eaeaea;
+
+}
+.service {
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+.service li {
+
+    height: 43px;
+    line-height: 43px;
+    width: 297px;
+    float: left;
+    position: relative;
+}
+.service h5 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 38px;
+    width: 36px;
+    height: 43px;
+    background-image: url(../images/ico_service.png);
+    text-indent: -99em;
+}
+.service li:nth-child(2) h5 {
+    background-position: 0 -43px;
+}
+.service li:nth-child(3) h5 {
+    background-position: 0 -86px;
+}
+.service li:nth-child(4) h5 {
+    background-position: 0 -129px;
+}
+.service p {
+    margin: 0;
+    font-weight: 700;
+    margin-left: 82px;
+}
+/* 帮助模块*/
+.help {
+    height: 200px;
+    width: 1190px;
+    padding-top: 5px;
+    border-bottom: 1px solid #dedede;
+    box-sizing: border-box;
+}
+.help dt,
+.help .text h4 {
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+
+}
+.help dl{
+    float: left;
+    width: 185px;
+    line-height: 20px;
+}
+.help .text {
+    width: 200px;
+    height: 150px;
+    font-size: 12px;
+    color: #999;
+    line-height: 16px;
+    background: url(../images/ico_footer.png) no-repeat;
+}
+/* 底部版权 */
+.copyright {
+    padding-top: 20px;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+.copyright span {
+    margin: 0 10px;
+}
+.copyright div {
+    margin-top: 20px;
+}
+.copyright p {
+    line-height: 14px;
+    color: #888;
+}
+.foot-icon a {
+    display: inline-block;
+    width: 103px;
+    height: 33px;
+    background: url(../images/ico_footer.png) no-repeat 0 -150px;
+}
+.foot-icon a:nth-child(2){
+    background-position: -103px -150px;
+}
+.foot-icon a:nth-child(3){
+    background-position: 0 -183px;
+}
+.foot-icon a:nth-child(4){
+    background-position: -103px -183px;
+}
+.foot-icon a:nth-child(5){
+    background-position: 0 -216px;
+}
+.foot-icon a:nth-child(6){
+    background-position: -103px -216px;
+}
